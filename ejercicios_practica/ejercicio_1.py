@@ -9,6 +9,9 @@
 
 # Ejercicios de práctica numérica
 
+from cgi import print_arguments
+
+
 numero_1 = 5
 numero_2 = 7
 
@@ -17,8 +20,17 @@ numero_2 = 7
 # Almacenar el valor de la suma en una variable
 # ej:
 # operacion = .....
+suma = numero_1 + numero_2
 
 # Imprimir en pantalla el resultado de la suma
 # print(....)
+print('La suma de',numero_1,'y',numero_2,'es :',suma)
 
 # Repita el procedimiento para realizar la resta
+resta = numero_1 - numero_2
+
+# Imprimo en pantalla el resultado de la resta
+print('La resta de',numero_1,'y',numero_2,'es :',resta)
+
+
+

@@ -36,5 +36,27 @@ https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
 Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
+
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese su Nombre completo')
+Nombre_Completo = str(input())
+
+#Imprime Todas las letras en minuscula 
+Nombreminuscula = Nombre_Completo.lower()
+print('Nombre Completo en minuscula:',Nombreminuscula)
+
+#Imprime todas las letras en Mayuscula 
+NombreMayuscula = Nombre_Completo.upper()
+print('Nombre Completo en minuscula:',NombreMayuscula)
+
+#Imprime en mayuscula solo la primera letra 
+Nombre_Completo = Nombre_Completo.capitalize()
+print('Nombre completo:',Nombre_Completo)
+
+#Imprime en mayuscula solo la primera letra de cada palabra 
+Nombre_Completo = Nombre_Completo.title() #con esta funcion hago que el primer caracter de cada palabra del 
+#string pase a mayuscula
+print('Nombre completo:',Nombre_Completo)
+

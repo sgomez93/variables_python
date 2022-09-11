@@ -18,9 +18,17 @@ print('Ingrese por consola su apellido/s:')
 apellido = str(input())
 
 # Imprima su nombre completo
+print('Nombre completo:',nombre,apellido)
 
 # Almacenar su nombre completo en una variable
 # nombre_completo = .....
 
+nombre_completo = nombre + apellido
+
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
+cantidad_letras = len(nombre_completo)
+print('Su nombre tiene',cantidad_letras,'letras')
+
+#Me faltaria identificar si ingresa mas de un nombre y apellido porque sino en cantidad de letras cuenta de mas porque 
+#suma los espacios

@@ -43,5 +43,26 @@ https://www.pythonforbeginners.com/dictionary/python-split
 Cualquier duda con el método split pueden consultarla por el campus
 '''
 
+from re import A
+
+
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+#Nombre del Madre
+print('Ingrese el nombre completo de la madre (Nombre Apellido):')
+Madre = str(input())
+NombreMadre , ApellidoMadre = Madre.split(' ') # sirve para separar un string y si no se le coloca argumento
+# toma el (' ') como separador, sino se debe indicar cual sera el separador a usar para separar el string 
+
+#Nombre del padre
+print('Ingrese el nombre completo del padre (Nombre Apellido):')
+Padre = str(input())
+NombrePadre , ApellidoPadre = Padre.split(' ')
+
+#nombre del hijo
+print('Ingrese solo el solo su nombre:')
+NombreH = str(input())
+
+#Nombre completo del Hijo
+print('Su Nombre completo es:',NombreH,ApellidoPadre,ApellidoMadre)
